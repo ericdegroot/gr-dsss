@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<block>
+  <name>dsss_decoder_cc</name>
+  <key>dsss_dsss_decoder_cc</key>
+  <category>dsss</category>
+  <import>import dsss</import>
+  <make>dsss.dsss_decoder_cc($code, $samples_per_symbol)</make>
+  <callback>set_code($code)</callback>
+  <param>
+    <name>Code</name>
+    <key>code</key>
+    <type>int_vector</type>
+  </param>
+  <param>
+    <name>Samples per symbol</name>
+    <key>samples_per_symbol</key>
+    <type>real</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

@@ -1,0 +1,6 @@
+\#*
+.\#*
+*~
+*.pyc
+build
+examples/top_block.py

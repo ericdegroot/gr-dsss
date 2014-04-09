@@ -1,0 +1,21 @@
+<block>
+  <name>dsss_encoder_bb</name>
+  <key>dsss_dsss_encoder_bb</key>
+  <category>dsss</category>
+  <import>import dsss</import>
+  <make>dsss.dsss_encoder_bb($code)</make>
+  <callback>set_code($code)</callback>
+  <param>
+    <name>Code</name>
+    <key>code</key>
+    <type>int_vector</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>byte</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+</block>
